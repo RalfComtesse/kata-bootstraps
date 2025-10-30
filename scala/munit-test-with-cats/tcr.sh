@@ -1,2 +1,2 @@
 #!/bin/bash
-(sbt test && git commit -a -m "wip") || git reset  --hard
+(sbt test && git commit -am "wip") || git reset --hard HEAD
