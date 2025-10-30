@@ -1,10 +1,8 @@
-import org.scalatest._
+package sandbox
 
-abstract class UnitTest extends FunSuite with Matchers
-
-class SomeTest extends UnitTest {
+class SomeTest extends munit.FunSuite {
 
   test("scalatest should work") {
-    42 shouldBe 43
+    assert(42 == 43)
   }
 }

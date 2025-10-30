@@ -1,9 +1,9 @@
-import org.scalatest._
+package sandbox
 
-class SomeOkTest extends UnitTest {
+class SomeOkTest extends munit.FunSuite {
 
   test("it should not fail") {
-    23 shouldBe 23
+    assert(23 == 23)
   }
 
 }
