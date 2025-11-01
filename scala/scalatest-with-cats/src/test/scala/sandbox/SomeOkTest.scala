@@ -1,4 +1,5 @@
-import org.scalatest._
+package sandbox
+import org.scalatest.*
 
 class SomeOkTest extends UnitTest {
 
